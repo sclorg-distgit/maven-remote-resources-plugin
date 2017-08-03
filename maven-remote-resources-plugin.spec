@@ -3,7 +3,7 @@
 
 Name:           %{?scl_prefix}maven-remote-resources-plugin
 Version:        1.4
-Release:        12.1%{?dist}
+Release:        12.2%{?dist}
 Summary:        Maven Remote Resources Plugin
 License:        ASL 2.0
 URL:            http://maven.apache.org/plugins/maven-remote-resources-plugin/
@@ -77,6 +77,9 @@ rm -f src/main/resources/META-INF/plexus/components.xml
 %doc LICENSE NOTICE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.4-12.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.4-12.1
 - Automated package import and SCL-ization
 
